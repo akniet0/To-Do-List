@@ -1,0 +1,77 @@
+body{
+    background-color:rgb(249, 192, 84);
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.card{
+    background-color: rgb(238, 226, 197);
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1{
+    color: green;
+    font-weight:bolder;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    color:black;
+    font-family: fantasy;
+    font-size: 17px;
+}
+
+li{
+    padding: 10px 0;
+    border-bottom: 1px solid;
+    color: black;
+    border-color: brown;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+}
+
+#taskInput{
+    font-size: 20px;
+    font-family: serif;
+    border-radius: 15px;
+    color: darkred;
+    border-color: blueviolet;
+    font-weight: 550;
+}
+
+button{
+    padding: 5px;
+    margin-left: 12px;
+}
+
+button:hover{
+    background-color: lightcoral;
+}
+
+#addButton{
+    padding: 15px;
+    border-radius: 15px;
+    border-color: green;
+    color:brown;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+#addButton:hover{
+    background-color: lightgreen;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+}
